@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/BrinquedotecaOnlineFrontend/static/css/main.6f82e337.css",
+    "main.js": "/BrinquedotecaOnlineFrontend/static/js/main.02b96ce8.js",
+    "static/js/453.131dbe51.chunk.js": "/BrinquedotecaOnlineFrontend/static/js/453.131dbe51.chunk.js",
+    "index.html": "/BrinquedotecaOnlineFrontend/index.html",
+    "main.6f82e337.css.map": "/BrinquedotecaOnlineFrontend/static/css/main.6f82e337.css.map",
+    "main.02b96ce8.js.map": "/BrinquedotecaOnlineFrontend/static/js/main.02b96ce8.js.map",
+    "453.131dbe51.chunk.js.map": "/BrinquedotecaOnlineFrontend/static/js/453.131dbe51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f82e337.css",
+    "static/js/main.02b96ce8.js"
+  ]
+}
