@@ -10,6 +10,8 @@ const CriarBrinquedo = () => {
         preco_BRINQUEDO: ''
     });
 
+    const [mensagem, setMensagem] = useState(''); // Estado para a mensagem de feedback
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         setBrinquedo(prevState => ({
@@ -21,10 +23,18 @@ const CriarBrinquedo = () => {
     const handleSubmit = () => {
         axios.post('https://brinquedotecaonline.fly.dev/api/brinquedos', brinquedo)
             .then(response => {
-                console.log('Brinquedo criado:', response.data);
+                setMensagem('Brinquedo adicionado com sucesso!'); // Define a mensagem de sucesso
+                setBrinquedo({
+                    nome_BRINQUEDO: '',
+                    tipo_BRINQUEDO: '',
+                    classificacao_BRINQUEDO: '',
+                    tamanho_BRINQUEDO: '',
+                    preco_BRINQUEDO: ''
+                }); // Limpa os campos
             })
             .catch(error => {
                 console.error('Erro ao criar brinquedo:', error);
+                setMensagem('Erro ao adicionar o brinquedo.'); // Define a mensagem de erro
             });
     };
 
@@ -67,6 +77,8 @@ const CriarBrinquedo = () => {
                 placeholder="Preço do Brinquedo"
             />
             <button onClick={handleSubmit}>Criar</button>
+
+            {mensagem && <p>{mensagem}</p>} {/* Exibe a mensagem de feedback no site */}
         </div>
     );
 };
