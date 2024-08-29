@@ -36,4 +36,8 @@ O frontend foi desenvolvido utilizando React, e faz o consumo da API RESTful do 
 - **Axios**: Cliente HTTP para consumo da API.
 - **React Router DOM**: Utilizado para navegação entre páginas.
 - **React Scripts**: Scripts de desenvolvimento para o React.
-- **PlantUML**: Ferramenta para geração de diagramas UML a partir de texto.
+
+
+## Diagrama
+
+![brinquedotecaUML](https://github.com/MuriloNogr/BrinquedotecaOnlineFrontend/blob/main/UmlFrontJA4.png)
