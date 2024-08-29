@@ -4,7 +4,7 @@ Este é o frontend do projeto BrinquedoTecaOnline, desenvolvido em React, que co
 
 ### Links Importantes
 
-- **Site funcional**: [https://murilonogr.github.io/brinquedos](https://murilonogr.github.io/brinquedos)
+- **Site funcional**: https://murilonogr.github.io/BrinquedotecaOnlineFrontend
 - **API**: [https://brinquedotecaonline.fly.dev/api/brinquedos](https://brinquedotecaonline.fly.dev/api/brinquedos)
 - **Repositório do Backend**: [https://github.com/MuriloNogr/BrinquedotecaOnline](https://github.com/MuriloNogr/BrinquedotecaOnline)
 
