@@ -13,8 +13,17 @@ Este é o frontend do projeto BrinquedoTecaOnline, desenvolvido em React, que co
 ## Integrantes
 
 550531 - Luis Fernando Menezes Zampar
+
+---
+
 551694 - Diogo Fagioli Bombonatti
+
+---
+
 89162 - Murilo Nogueira
+
+---
+
 550711 - Gabriel Galdino da Silva
 
 ## Sobre o Projeto
